@@ -1,0 +1,65 @@
+h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.productsList{
+    padding: 0;
+    list-style: none;
+    width: 70%;
+}
+.productsList .listItem{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+}
+/* .productsList .listItem .img{
+    flex: 1;
+} */
+.productsList .listItem .img img{
+    width: 150px;
+    height: 100px;
+    margin: 0px 30px;
+}
+.productsList .listItem .info{
+    flex: 2;
+}
+.productsList .listItem .action{
+    flex: 1;
+}
+.actionButton{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+.actionButton:hover{
+    background-color: rgb(189, 189, 189);
+    color: #fff;
+}
+
+
+
+
+.cartArea{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.cartArea .icon{
+    font-size: 30px;
+}
+.cartArea .countNo{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    text-align: center;
+}
